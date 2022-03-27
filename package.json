@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-test-node",
+  "version": "1.0.0",
+  "description": "Test jenkins build",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misterprog-dev/jenkins-test-node.git"
+  },
+  "author": "Soumaila Diakite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misterprog-dev/jenkins-test-node/issues"
+  },
+  "homepage": "https://github.com/misterprog-dev/jenkins-test-node#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
